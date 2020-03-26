@@ -49,6 +49,15 @@ body{
     font-size: 75%;
 }
 
+.portfoliotext{
+    color: white;
+    text-decoration: none;
+}
+
+.portfoliosecondary{
+    color: white;
+}
+
 .main{
     top: 100px;
     position: relative;
@@ -125,6 +134,7 @@ body{
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color:#ffffff;
+    /*line-height: 1;*/
 }
 
 .indeximg{
@@ -132,7 +142,11 @@ body{
     width: 200px;
     float: left; 
     margin-top: 18px; 
-    margin-right:5px
+    margin-right:5px;
+}
+
+#indexmain{
+    min-height: 300px;
 }
 
 @media screen and (max-width: 980px) and (min-width: 769px)
