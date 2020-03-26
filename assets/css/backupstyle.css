@@ -1,0 +1,231 @@
+body{
+    background-color:#dddddd;
+    background-image: url(../images/spikes.png);
+}
+
+.header {
+    z-index: 100;
+    position: fixed;
+    right: 0;
+    top: 0;
+    text-align: right;
+    color: #777777;
+    background-color:#ffffff;
+    font-size: 20px;
+    width: 100%;
+    height: 75px;
+    border-bottom: 3px solid #cccccc;
+  }
+
+.headercontainer{
+    width: 960px;
+    position: relative;
+    margin: auto;
+}
+
+.titlename{
+    float: left;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: left;
+    height:auto;
+    white-space:nowrap;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.links{
+    margin-top: 30px;
+    float: right;
+    text-align: left;
+    height:100%;
+    white-space: nowrap;
+
+}
+
+.navlinks{
+    color: #777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 75%;
+}
+
+.main{
+    top: 100px;
+    position: relative;
+    width:920px;
+    background-color:#ffffff;
+    border-color:#4aaaa5;
+    margin: auto;
+    margin-bottom: 100px;
+    height: auto;
+    border: 20px solid #ffffff;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+.footer{
+    z-index: 60;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 8px solid #4aaaa5;
+    background-color:#666666;
+    color: #ffffff;
+    text-align: center;
+    font-size: 50%;
+}
+
+.subheader{
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.divider{
+    background-color: #dddddd;
+    width:100%;
+    height: 3px;
+}
+
+.container{
+    line-height: 1.5;
+}
+
+.submitbtn{
+    background-color:#4aaaa5;
+    color: #ffffff;
+}
+
+.portfolioimage{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 250px;
+    width: 250px;
+
+}
+
+.grid-container{
+    position: relative;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 270px 270px;
+}
+
+.imagecontainer{
+    position: relative;
+}
+
+.textoverlay{
+    margin-top: -80px;
+    width: 230px;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    z-index: 50;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color:#ffffff;
+}
+
+.indeximg{
+    height: 200px;
+    width: 200px;
+    float: left; 
+    margin-top: 18px; 
+    margin-right:5px
+}
+
+@media screen and (max-width: 980px) and (min-width: 769px)
+{
+    .main{
+        margin-right: 0px;
+        margin-left: 15px;
+        width: 600px;
+    }
+
+    .titlename{
+        margin-left: 15px;
+    }
+
+    .links{
+        margin-right: 50px;
+    }
+
+    .headercontainer{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 641px)
+{
+    .main{
+        width: 600px;
+    }
+
+    .titlename{
+        margin-left: 15px;
+    }
+
+    .links{
+        margin-right: 15px;
+    }
+
+    .headercontainer{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px)
+{
+    .header{
+        height: auto;
+        background-color: white;
+    }
+
+    .headercontainer{
+        width: 100%;
+        background-color: white;
+    }
+    .titlename{
+        float: center;
+        text-align: center;
+        white-space: normal;
+        width: 100%;
+    }
+
+    .links{
+        float: center;
+        white-space: normal;
+        text-align: center;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 0px;
+        background-color: white;
+    }
+
+    .main{
+        width: 480px;
+    }
+
+    .portfolioimage{
+        height: 300px;
+        width: 300px;
+    }
+    
+    .grid-container{
+        grid-template-columns: 320px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .indeximg{
+        float: none;
+        height: 250px;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+}

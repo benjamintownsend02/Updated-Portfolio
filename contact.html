@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <div class="header">
+      <div class="headercontainer">
+          <div class="titlename">
+          <h4>Benjamin Townsend</h4>
+        </div>
+        <div class="links">
+          <a href="index.html" class="navlinks">About</a>&nbsp;|
+          <a href="portfolio.html" class="navlinks">Portfolio</a>&nbsp;|
+          <a href="contact.html" class="navlinks">Contact</a>
+        </div>
+        
+        
+      </div>
+    </div>
+    <div class="main">
+      <h3 class="subheader">Contact</h3>
+      <div class="divider">&nbsp;</div>
+      <form action="communication.php">
+        <div class="container">
+          <label for="name"><b>Name</b></label>
+          <br>
+          <input id="name" type="text" placeholder="John Smith" name="name" required>
+          <br>
+          <label for="email"><b>Email</b></label>
+          <br>
+          <input id="email" type="email" placeholder="example@gmail.com" name="email" required>
+          <br>
+          <label for="message"><b>Message</b></label>
+          <br>
+          <textarea id="message" placeholder="" name="message" rows="10" style="width:100%"></textarea>
+          <br>
+          <!--Note: system is not yet functional for contacting-->
+          <div class="clearfix">
+            <button type="submit" class="submitbtn">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="footer">
+      <p>Copyright&copy;</p>
+
+    </div>
+
+</body>
